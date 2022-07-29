@@ -99,6 +99,7 @@ img {
 
 .overflowHidden{
 	overflow: hidden;
+	height: 100%;
 }
 .burger{
 	display: none;
