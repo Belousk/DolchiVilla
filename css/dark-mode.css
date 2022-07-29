@@ -1,0 +1,106 @@
+body{
+	background: rgba(29, 29, 29, 1);
+}
+.mobile_menu.active{
+	background-color: rgba(29, 29, 29, 1);
+}
+.mobile_menu.active .nav li a{
+	color: white;
+}
+.header .nav .theme .dark{
+	width: 18px;
+	display: block;
+}
+
+.block_header .before{
+	background-color: white;
+}
+
+.mobile_menu .menu_footer .controllers{
+	color: rgba(255, 255, 255, 0.5);
+}
+.mobile_menu.active ~ .header .logo{
+	display: none
+}
+.mobile_menu.active ~ .header .dark_logo{
+	display: block;
+	width: 63px;
+}
+.custom_checkbox ~ label:before {
+	border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.custom_checkbox:checked ~ .ru{
+	color: rgba(255, 255, 255, 0.5);
+}
+.custom_checkbox ~ .en{
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.custom_checkbox ~ .moon_img .moon{
+	fill: #D2A270;
+}
+.custom_checkbox ~ .sun_img .sun{
+	fill: rgba(255, 255, 255)!important;
+}
+
+#switch_theme + label:after{
+	left: 47px;
+}
+
+.line{
+	
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.about_us__header p{
+	color: white;
+}
+.about_us__description p{
+	color: white;
+}
+
+.our_services__header{
+	color: white;
+}
+.our_services .services .service{
+	background-color: #262626;
+}
+.our_services .services .service__title,
+.our_services .services .service__description{
+	color: white;
+}
+
+.advantage__input:checked ~ .advantage__img.dark{
+	display: block;
+}
+
+.advantages_wrapper .advantages .advantage__text,
+.advantages_wrapper .advantages .advantage__label{
+	color: white;
+}
+.advantages_wrapper .advantages__header{
+	color: white;
+}
+
+.wrapper_advantages .circle{
+	background-color: rgba(235, 235, 235, 0.05);
+}
+
+.footer{
+	background: transparent;
+}
+
+@media screen and (max-width: 1200px){
+	.advantages_wrapper .advantages .advantage__label::after{
+		background-image: url('../img/arrows/arrow_down_white.svg');
+	}
+	.advantages_wrapper .advantages .advantage__input:checked ~ .advantage__label::after{
+		background-image: url('../img/arrows/arrow_up_white.svg');
+	}
+}
+
+@media screen and (max-width: 800px){
+	.incredible_views__header{
+		color: white;
+	}
+}
