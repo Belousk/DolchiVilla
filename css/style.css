@@ -99,7 +99,7 @@ img {
 
 .overflowHidden{
 	overflow: hidden;
-	height: 100vh;
+	height: 100px;
 }
 .burger{
 	display: none;
@@ -1381,7 +1381,7 @@ img {
 		margin: 0;
 		/*padding: 10px;*/
 		z-index: 2;
-		padding-bottom: 30px;
+		padding-bottom: 60px;
 
 	}
 	.mobile_menu.active ~ .header .burger div:before{
